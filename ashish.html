@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+
+        header {
+            height: 60px;
+            width: 100vw;
+
+            background-color: darkblue;
+            color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        footer {
+            height: 30px;
+            width: 100vw;
+            background-color: darkblue;
+
+            position: static;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .nav-left {
+            height: 100%;
+            /* border: 1px solid red; */
+            width: 20%;
+
+        }
+
+        .nav-left p {
+            margin: 5px 50px;
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .nav-right {
+            height: 100%;
+            /* border: 1px solid red; */
+            width: 10%;
+
+
+
+        }
+
+        .nav_right_button{
+            display: flex;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: 2px solid black;
+
+        }
+
+        
+        .main {
+            display: flex;
+
+        }
+
+        .picName {
+            height: 80vh;
+            width: 45%;
+            padding: 20px;
+            /* background-color: red; */
+
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            /* text-align: center; */
+
+        }
+
+        .details {
+            height: 80vh;
+            width: 55%;
+            padding: 20px;
+            /* background-color: green; */
+            border-radius: 40px;
+
+        }
+
+
+
+
+
+        .pic_and_name {
+            height: 80vh;
+            background-color: black;
+            border: 5px solid black;
+            border-radius: 20px;
+            width: 55vh;
+
+            box-sizing: border-box;
+
+
+            text-align: center;
+        }
+
+        .picAshish {
+            width: 100%;
+            border-radius: 30px;
+        }
+
+        .name {
+            margin: auto;
+            width: 100%;
+            font-size: 5vh;
+            font-weight: 700;
+            text-decoration: underline;
+            color: cyan;
+        }
+
+
+        .headingDetails {
+
+            font-size: 30px;
+            text-decoration: underline;
+
+        }
+
+
+        .table_margin {
+            margin: 30px 0px;
+        }
+
+        .dark-mode {
+            background: black;
+            color: white;
+        }
+
+
+
+
+
+        /* @media starts */
+
+
+        /* zero size */
+
+        @media (max-width:480px) {
+
+           
+
+            .main {         
+                display: block;
+               
+            }
+
+            .nav-left p{
+                margin: 10px;
+                font-size: 25px;
+            }
+
+            .nav-right{
+                width: 20%;
+            }
+
+            .nav_right_button{
+                height: 30%;
+                width: 70%;
+                font-size: 8px;
+                text-align: center;
+            }
+
+            .picName {
+                height: auto;
+                width: 100vw;
+
+                box-sizing: border-box;
+
+                padding: 20px;
+
+            }
+
+            .name {
+
+                font-size: 2vh;
+                }
+
+            .pic_and_name {
+                box-sizing: border-box;
+
+                height: auto;
+                width: 70%;
+                margin: auto;
+            }
+
+            .details {
+
+                height: auto;
+                width: 80%;
+
+                font-size: 20px;
+
+            }
+
+
+           
+
+            
+
+            
+
+
+
+
+
+        }
+
+
+
+        /* Small Phones */
+
+        @media (min-width:480px) and (max-width:770px) {
+
+
+            .main {         
+                display: block;
+               
+            }
+
+            .nav-left p{
+                margin: 7px;
+                font-size: 40px;
+            }
+
+            .nav-right{
+                width: 10%;
+            }
+
+            .nav_right_button{
+                height: 50%;
+                width: 80%;
+                font-size: 11px;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .picName {
+                height: auto;
+                width: 80vw;
+
+                margin: auto;
+
+
+                box-sizing: border-box;
+
+                padding: 20px;
+
+            }
+
+            .name {
+
+                font-size: 5vh;
+                }
+
+            .pic_and_name {
+                box-sizing: border-box;
+
+                height: auto;
+                width: 70%;
+                margin: auto;
+            }
+
+            .details {
+
+                height: auto;
+                width: 80%;
+
+                font-size: 30px;
+
+            }
+
+        }
+
+
+
+
+
+
+        /* phones */
+
+        @media (min-width:770px) and (max-width:1024px) {
+
+            .main {         
+                display: block;
+               
+            }
+
+            .nav-left p{
+                margin: 7px;
+                font-size: 40px;
+            }
+
+            .nav-right{
+                width: 10%;
+            }
+
+            .nav_right_button{
+                height: 55%;
+                width: 80%;
+                font-size: 11px;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            .picName {
+                height: auto;
+                width: 80vw;
+
+                margin: auto;
+
+
+                box-sizing: border-box;
+
+                padding: 20px;
+
+            }
+
+            .name {
+
+                font-size: 5vh;
+                }
+
+            .pic_and_name {
+                box-sizing: border-box;
+
+                height: auto;
+                width: 70%;
+                margin: auto;
+            }
+
+            .details {
+
+                height: auto;
+                width: 90%;
+
+                font-size: 30px;
+
+            }
+
+
+
+        }
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-left">
+            <p>Home</p>
+        </div>
+
+
+
+        <div class="nav-right">
+
+            <button class="nav_right_button" onclick="dark()">Dark Mode</button>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="main">
+
+        <div class="picName">
+            <div class="pic_and_name">
+                <img class="picAshish" src="Ashish.jpg" alt="Ashis_Image">
+                <h2 class="name">Ashish Kuldeep</h2>
+            </div>
+
+        </div>
+
+        <div class="details">
+            <div>
+                <h2 class="headingDetails"> Details </h2>
+            </div>
+
+            <div class="detail_table">
+                <table class="table_margin">
+                    <th>Personal Data</th>
+                    <tr>
+                        <td><b>Full Name:</b></td>
+                        <td>Ashish Kuldeep</td>
+                    </tr>
+                    <tr>
+                        <td><b>Father Name:</b></td>
+                        <td>Gyan Chand</td>
+                    </tr>
+                    <tr>
+                        <td><b>Address:</b></td>
+                        <td>Gonda , Uttar Pradesh 271001</td>
+                    </tr>
+                </table>
+
+                <table class="table_margin">
+                    <th>Educational Data</th>
+                    <tr>
+                        <td><b>Education:</b></td>
+                        <td>Intermediate , Graduation(B.Sc Bio)</td>
+
+                    </tr>
+
+                    <tr>
+                        <td><b>Skills:</b></td>
+                        <td>Python , Web developer (Beginner in both)</td>
+                    </tr>
+
+                </table>
+
+                <table class="table_margin">
+                    <th>Hobbies Are</th>
+                    <tr>
+                        <td><b>Hobbies:</b></td>
+                        <td>Playing And Watching Cricket , Watching Movies</td>
+                    </tr>
+                </table>
+
+                <table class="table_margin">
+                    <tr>
+                        <td><b>Contact Email:</b></td>
+                        <td>ashishkuldeep@6gmail.com</td>
+
+                    </tr>
+                </table>
+
+                <table class="table_margin">
+                    <th>Social Media </th>
+                    <tr>
+                        <td><b>Accounts:</b></td>
+                        <td>Facebook , Instagram , Iinkdin , Tiwtter</td>
+                    </tr>
+
+                </table>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer>
+
+    </footer>
+
+    <script>
+
+        function dark() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+
+        // button.addEventListener('click',bgcolor)
+    </script>
+</body>
+
+</html>
